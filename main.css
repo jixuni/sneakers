@@ -91,3 +91,41 @@ nav ul li:hover {
 .nav-right ul li:last-child {
   border-right: none;
 }
+
+.nav-right i {
+  margin-right: 1rem;
+}
+
+.nav-right i :first-child {
+  margin-right: 0;
+}
+
+.main {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.tone-1 {
+  background-color: #f7f7f6;
+  height: 100vh;
+  flex: 1;
+}
+
+.tone-2 {
+  background-color: #f9e2ba;
+  height: 100vh;
+  flex: 1;
+  position: relative;
+}
+
+.tone-2 img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: -15rem;
+  transform: translateY(-50%);
+}
