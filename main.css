@@ -129,3 +129,60 @@ nav ul li:hover {
   left: -15rem;
   transform: translateY(-50%);
 }
+
+.product-info {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-info h1 {
+  font-size: 5rem;
+  font-family: fantasy;
+  letter-spacing: 3px;
+  margin-right: -3px;
+  font-weight: 100;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.product-info p {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+.product-info h2 {
+  font-size: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  display: flex;
+  padding: 2rem;
+  color: #f7f7f6;
+  font-size: 1.5rem;
+  font-weight: 900;
+  transition: all 0.5s;
+}
+
+.info-btns {
+  display: flex;
+}
+
+.discover-btn {
+  background-color: #a4a4a4;
+}
+
+.cart-btn {
+  background-color: #141110;
+}
+
+.discover-btn:hover,
+.cart-btn:hover {
+  box-shadow: 3px 1rem 2rem rgba(0, 0, 0, 0.3);
+  transform: translateY(-1rem);
+}
