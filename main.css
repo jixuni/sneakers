@@ -186,3 +186,127 @@ nav ul li:hover {
   box-shadow: 3px 1rem 2rem rgba(0, 0, 0, 0.3);
   transform: translateY(-1rem);
 }
+
+@media screen and (max-width: 1200px) {
+  .tone-2 img {
+    left: -8rem;
+  }
+
+  .product-info h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .product-info p {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .product-info h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .btn {
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  .logo {
+    padding-left: 1.5rem;
+  }
+
+  nav ul {
+    height: 5rem;
+    font-size: 1.4rem;
+  }
+
+  nav ul li {
+    padding: 0 1.5rem;
+    line-height: 5rem;
+  }
+
+  .tone-2 img {
+    left: -5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .tone-2 img {
+    left: -2.5rem;
+  }
+
+  .product-info p {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    padding: 1rem;
+  }
+
+  nav {
+    display: flex;
+    border-bottom: none;
+    flex-direction: column;
+    width: 25rem;
+    height: 100vh;
+    background-color: #f7f7f6;
+    justify-content: space-evenly;
+    transform: translateX(-25rem);
+    transition: transform 0.5s;
+  }
+
+  nav ul {
+    height: initial;
+    display: block !important;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  nav ul li {
+    padding: 0;
+    line-height: initial;
+    margin-bottom: 2rem;
+  }
+
+  .logo {
+    padding: 0;
+  }
+
+  .nav-right ul li,
+  .nav-right ul li:nth-child(1) {
+    border: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .fa-times {
+    display: block !important;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .active {
+    transform: translateX(0);
+  }
+
+  .overlay {
+    position: absolute;
+    width: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 998;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .menu-open {
+    width: 100%;
+    opacity: 1;
+  }
+}
