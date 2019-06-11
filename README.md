@@ -2,7 +2,7 @@
 
 ![ScreenShot](https://github.com/jixuni/sneakers/blob/master/images/screenshot.png)
 
-Simple design website created for all the sneaker heads. It can be view here [Cherry](https://jixuni.github.io/sneakers/index.html)
+Simple design website created for all the sneaker heads. It can be view here [Sneakers](https://jixuni.github.io/sneakers/index.html)
 
 ## Getting Started
 
